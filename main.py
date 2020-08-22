@@ -19,6 +19,4 @@ if len(sys.argv) < 3:
     raise AssertionError("You need to pass arguments: -course_url -used_browser")
 
 scraper = mosh_scrap.MoshScraper(sys.argv[1], sys.argv[2])
-#print(scraper.get_items_data())
-
 scraper.download()
