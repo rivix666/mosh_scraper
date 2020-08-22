@@ -1,4 +1,4 @@
-# mosh_scrap
+# mosh_scraper
 
 Little python script that uses BeautifulSoup to download all videos and files related to a specified course at https://codewithmosh.com/.
 
